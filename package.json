@@ -6,9 +6,16 @@
   "scripts": {
     "test": "jest"
   },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["lcov"],
+    "coverageDirectory": "./output/code-coverage/",
+    "reporters": ["./node_modules/jest-html-reporter"]
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^29.5.0"
+    "jest": "^29.5.0",
+    "jest-html-reporter": "^3.7.1"
   }
 }
