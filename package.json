@@ -4,7 +4,8 @@
   "description": "jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "tag1": "jest -i ./calculator.test.js -t"
   },
   "jest": {
     "collectCoverage": true,
