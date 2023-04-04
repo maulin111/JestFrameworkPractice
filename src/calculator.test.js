@@ -25,5 +25,17 @@ describe("Calculator tests", () => {
       expect(mathOperations.product(4, 2)).toBe(8);
    
     });
+
+    test('regEX', () => {
+   
+      expect(mathOperations.lowercase('abc')).toBe('^/a.c$/');
+
+    });
+
+    test('regEX1', () => {
+   
+      expect(mathOperations.Number(10)).toBe('/[0-9]/');
+
+    });
    
    })
